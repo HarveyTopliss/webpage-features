@@ -10,11 +10,13 @@ html {
 
 body {
   width: 100%;
+  min-width: 770px;
   height: 100%;
 }
 
 .page {
   height: 100vh;
+  min-height: 965px;
   width: 100%;
 }
 
@@ -29,21 +31,26 @@ body {
 .header {
   position: static;
   width: 100%;
-  height: 5%;
+  height: 47.5px;
   background-color: rgb(0, 185, 185);
 }
 
 .header > h1 {
   text-align: center;
   font-size: 2rem;
+  min-height: 37.5px;
 }
 
 .navbar {
   position: absolute;
+  display: flex;
+  justify-content: space-between;
   z-index: 1;
-  top: 5%;
+  top: 47.5px;
   height: 10%;
+  min-height: 95px;
   width: 100%;
+  min-width: 770px;
   background-color: lightskyblue;
   transition: all 0.4s ease-in-out;
 }
@@ -54,12 +61,10 @@ body {
 }
 
 .navbar > span {
-  float: left;
   font-size: 3rem;
 }
 
 .slidebar-btn {
-  margin-left: 35%;
   margin-top: 1.5em;
   border: none;
   cursor: pointer;
@@ -68,7 +73,6 @@ body {
 }
 
 .sidebar-btn {
-  float: right;
   margin-right: 0.05em;
   border: none;
   font-size: 6rem;
@@ -84,6 +88,7 @@ body {
   z-index: 1;
   right: 0;
   width: 30%;
+  min-width: 235px;
   height: 60%;
   background-color: mediumseagreen;
   text-align: center;
@@ -111,6 +116,7 @@ body {
   top: 15%;
   transform: translate(50%);
   width: 50%;
+  min-width: 390px;
   height: 40%;
   background-color: rgb(34, 179, 34);
   text-align: center;
