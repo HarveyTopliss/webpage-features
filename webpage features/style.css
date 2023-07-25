@@ -46,9 +46,9 @@ body {
   display: flex;
   justify-content: space-between;
   z-index: 1;
-  top: 5%;
+  top: 37.5px;
   height: 10%;
-  /* min-height: 95px; */
+  min-height: 95px;
   width: 100%;
   min-width: 770px;
   background-color: lightskyblue;
